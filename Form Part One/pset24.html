@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Part 01</title>
+</head>
+<body>
+    <form action="test.py" method="post">
+
+        <div>
+            <label for="user">Username</label>
+            <br>
+            <input type="text" id="user" placeholder="Username" required name="user">
+            <hr>
+        </div>
+
+        <div>
+            <label for="pass">Password</label>
+            <br>
+            <input type="password" id="pass" placeholder="Password" name="pass">
+            <hr>
+        </div>
+
+        <div>
+            <label for="mob">Mobile</label>
+            <br>
+            <input type="tel" id="mob" placeholder="Mobile" value=" +20100 (234) 123" name="mob">
+            <hr>
+        </div>
+
+        <div>
+            <label for="em">Email</label>
+            <br>
+            <input type="email" id="em" placeholder="Email" required name="email">
+            <hr>
+        </div>
+
+        <div>
+            <label for="sub">Subject</label>
+            <br>
+            <input type="text" id="sub" placeholder="Subject" name="sub">
+            <hr>
+        </div>
+
+        <input type="hidden" value="15" name="hidd">
+        <input type="reset">
+        <input type="submit" value="Send Data" name="send">
+    </form>
+</body>
+</html>

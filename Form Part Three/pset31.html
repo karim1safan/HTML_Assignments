@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form part 03</title>
+</head>
+<body>
+    <form action="test.py" method="get" target="_blank" novalidate>
+        <div>
+            <label for="search">Search</label>
+            <br>
+            <br>
+            <input type="search" name="search" id="search" placeholder="Enter A Search Word" autofocus>
+            <br>
+            <br>
+        </div>
+        <div>
+            <label for="file">Upload</label>
+            <br>
+            <br>
+            <input type="file" name="file" id="file">
+        </div>
+        <div>
+            <br>
+            <br>
+            <label for="link">URL</label>
+            <br>
+            <br>
+            <input type="url" name="link" id="link" required>
+        </div>
+        <br>
+        <br>
+        <input type="reset" value="Empty">
+        <input type="submit" value="Sava">
+    </form>
+</body>
+</html>

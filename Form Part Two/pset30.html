@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form part 02</title>
+</head>
+<body>
+    <form action="test.php" method="get">
+        <header>
+            <h3>Your Skills</h3>
+        </header>
+
+        <div>
+            <input type="checkbox" name="problem" id="problem" checked>
+            <label for="problem">Problem Solving</label>
+        </div>
+        <div>
+            <input type="checkbox" name="think" id="think">
+            <label for="think">Logical Thinking</label>
+        </div>
+        <div>
+            <input type="checkbox" name="search" id="search">
+            <label for="search">Advanced Search</label>
+        </div>
+        <div>
+            <input type="checkbox" name="analysis" id="analysis">
+            <label for="analysis">Analysis</label>
+        </div>
+        <div>
+            <input type="checkbox" name="plan" id="plan">
+            <label for="plan">Planning</label>
+        </div>
+
+        <header>
+            <h3>Your Job</h3>
+        </header>
+
+        <div>
+            <input type="radio" name="job" id="front" checked>
+            <label for="front">Front-End Developer</label>
+        </div>
+        <div>
+            <input type="radio" name="job" id="back">
+            <label for="back">Back-End Developer</label>
+        </div>
+        <div>
+            <input type="radio" name="job" id="business">
+            <label for="business">Business Analyst</label>
+        </div>
+        <div>
+            <input type="radio" name="job" id="manger">
+            <label for="manger">Project Manager</label>
+        </div>
+        <div>
+            <input type="radio" name="job" id="scrum">
+            <label for="scrum">Scrum Master</label>
+        </div>
+
+
+        <br>
+
+        <label for="book">Cheek Book:</label>
+        <select name="book" id="book">
+            <optgroup label="PHP">
+                <option value="v5.0">v5.0</option>
+                <option value="v7.0">v7.0</option>
+                <option value="v8.0">v8.0</option>
+            </optgroup>
+            <optgroup label="Python">
+                <option value="v9.0">v9.0</option>
+                <option value="v4.0">v4.0</option>
+                <option value="v3.0">v3.0</option>
+            </optgroup>
+        </select>
+
+        <hr>
+
+        <label for="brief">Brief:</label>
+        <br>
+        <br>
+        <textarea name="brief" id="brief" cols="30" rows="10" disabled>Write Here Why You Want To Learn Programming</textarea>
+
+
+        <br>
+        <br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
